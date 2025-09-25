@@ -16,7 +16,7 @@ myT_01= t.Turtle()
 myT_01.hideturtle()
 myT_01.teleport(0,280)
 myT_01.color("black")
-myT_01.write(f"*** Score : {int(myScore)}   *** Seviye : {int(level)}", align="center", font=("Arial", 20, "bold"))
+myT_01.write(f"*** Score : {int(myScore)}   *** Seviye : {int(4-level)}", align="center", font=("Arial", 20, "bold"))
 #********** Time Turtle Field *****************
 myT_02= t.Turtle()
 myT_02.hideturtle()
@@ -177,3 +177,4 @@ myT_03.onclick(scoreWriter)
 runTurtle()
 
 t.mainloop()
+
