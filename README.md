@@ -1,0 +1,1 @@
+These files is my homework. Example codes for python learners. All of these my codes. I think already you understand (:))). At the same time, my English is also at a beginner level. Anyway,  Main theme is 'turtle' usage in python. In code rows there are on timer, write, drawing commands, threads commands. From simple to relatively difficult. 
