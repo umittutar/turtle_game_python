@@ -6,7 +6,7 @@ myWindow.geometry("300x500+530+50")
 myWindow.resizable(False, True)
 myWindow.title("X Files")
 myWindow.configure(background="pink4")
-myPhoto = tk.PhotoImage(file="../utWithCars_160_120.png")
+myPhoto = tk.PhotoImage(file="labelPict.png")
 labelForPhoto = tk.Label(image=myPhoto)
 labelForPhoto.pack()
 entryForTitleTextVariable = tk.StringVar()
@@ -169,3 +169,4 @@ buttonForDecryption.pack(pady=5)
 
 
 myWindow.mainloop()
+
